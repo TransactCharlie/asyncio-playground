@@ -8,4 +8,4 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - PYTHONPATH=src pytest server_playground
+  - PYTHONPATH=src pytest tests
