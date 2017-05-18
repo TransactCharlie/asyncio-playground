@@ -3,7 +3,7 @@ import asyncio
 
 # Simple index returning Hello
 async def index(request):
-    return web.Response(text="I'm a Server!\n")
+    return web.Response(text="I'm a Server!")
 
 
 async def query_strings(request):
@@ -25,4 +25,4 @@ async def delayed(request):
         period = 3
 
     await asyncio.sleep(int(period))
-    return web.Response(text="Delayed {}\n".format(period))
+    return web.Response(text="Delayed {}".format(period))
