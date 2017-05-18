@@ -1,5 +1,6 @@
 import pytest
-from server import setup_app
+
+from server_playground.server import setup_app
 
 
 @pytest.fixture

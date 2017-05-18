@@ -1,4 +1,4 @@
-from views import index, delayed, query_strings
+from server_playground.views import index, delayed, query_strings
 
 
 def setup_routes(app):

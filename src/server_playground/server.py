@@ -1,5 +1,5 @@
 from aiohttp import web
-from routes import setup_routes
+from server_playground.routes import setup_routes
 
 
 def setup_app():
