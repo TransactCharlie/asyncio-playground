@@ -1,6 +1,7 @@
 from aiohttp import web
 import asyncio
 
+
 # Simple index returning Hello
 async def index(request):
     return web.Response(text="I'm a Server!")

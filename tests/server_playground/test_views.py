@@ -1,5 +1,4 @@
 import pytest
-
 from server_playground.server import setup_app
 
 
